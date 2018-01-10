@@ -16,6 +16,7 @@ public class PersonRunnerTest {
 	public void testGetAgeCategory() {
 		PersonRunner cut = new PersonRunner(null);
 		int ageCategory = cut.getAgeCategory(70);
+		
 		assertEquals("wrong age category", 3, ageCategory);
 	}
 
